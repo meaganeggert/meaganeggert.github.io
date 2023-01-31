@@ -10,12 +10,16 @@ body {
 }
 
 .intro {
-    margin-top: 28%;
+    margin-top: 24%;
     padding: 10px;
     color: beige;
     font-size: 20rem;
     font-family: 'Playfair Display';
     border-bottom: 0.1rem solid beige;
+}
+
+.intro h1 {
+    font-family: 'Playfair Display';
 }
 
 .projects {
@@ -28,11 +32,33 @@ body {
 }
 
 main {
-    font-family: 'Playfair Display';
+    font-family: 'Roboto';
+    letter-spacing: 0.6rem;
     border-bottom: 0.1rem solid beige;
     background-color: rgb(188, 108, 37, 0.3);
 }
 
 footer {
     font-family: 'IBM Plex Mono';
+}
+
+.custom-bg {
+    background-color: rgb(188, 108, 37, 0.3);
+}
+.hamburger, .hamburger:hover, .hamburger:active, .hamburger:focus, .hamburger:visited {
+    border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.link-style {
+    font-family: 'Roboto'; 
+    letter-spacing: 0.6rem;
+}
+
+h1 {
+    font-family: "IBM Plex Mono";
 }

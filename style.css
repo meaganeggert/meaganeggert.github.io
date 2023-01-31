@@ -15,6 +15,7 @@ body {
     color: beige;
     font-size: 20rem;
     font-family: 'Playfair Display';
+    border-bottom: 0.1rem solid beige;
 }
 
 .projects {
@@ -24,4 +25,13 @@ body {
 
 .projects img {
     border: .3em double beige;
+}
+
+main {
+    font-family: 'Playfair Display';
+    border-bottom: 0.1rem solid beige;
+}
+
+footer {
+    font-family: 'IBM Plex Mono';
 }

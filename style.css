@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefae0;
+    background: url("./images/keyboardWatercolor.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro {
+    margin-top: 28%;
+    padding: 10px;
+    color: beige;
+    font-size: 20rem;
+    font-family: 'Playfair Display';
+}
+
+.projects {
+    color: beige;
+    font-family: 'IBM Plex Mono';
+}
+
+.projects img {
+    border: .3em double beige;
+}

@@ -30,6 +30,7 @@ body {
 main {
     font-family: 'Playfair Display';
     border-bottom: 0.1rem solid beige;
+    background-color: rgb(188, 108, 37, 0.3);
 }
 
 footer {

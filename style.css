@@ -55,11 +55,113 @@ footer {
     box-shadow: none;
 }
 
+h1 {
+    font-family: "IBM Plex Mono";
+}
+
 .link-style {
     font-family: 'Roboto'; 
     letter-spacing: 0.6rem;
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
 }
 
-h1 {
+.link-style:hover{
+    color: beige;
+}
+
+
+
+/* Vanilla CSS for Contact Page */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0.75rem;
+}
+
+nav {
+    background-color: rgb(188, 108, 37, 0.8);
+}
+
+.contactFooter {
+    text-align: center;
+    padding: .25em;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color: beige;
     font-family: "IBM Plex Mono";
+    background-color: rgb(188, 108, 37, 0.3);
+}
+
+.footerLink, .footerLink:hover {
+    font-family: "IBM Plex Mono";
+    color: beige; 
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem;
+    width: 90%;
+    /* border: 2px solid darkmagenta; */
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(188, 108, 37, 0.6);
+    text-align: center;
+    display: block;
+}
+
+.contactHeader {
+    color: beige;
+    display: block;
+    background-color: rgb(188, 108, 37, 0.6);
+    text-align: center;
+    font-family: "Playfair Display";
+    margin-bottom: 30%;
+}
+
+.contactForm {
+    width: 53%;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid orange; */
+    color: beige;
+    vertical-align: middle;
+}
+
+input {
+    width: 100%;
+}
+
+.formtext {
+    font-family: roboto;
+    letter-spacing: 1px;
+}
+
+label {
+    font-family: "IBM Plex Mono";
+    text-transform: lowercase;
+    letter-spacing: 0.4rem;
+    font-size: 100%;
+    margin-bottom: 0.4rem;
+}
+
+.contactAside {
+    width: 46%;
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    /* border: 2px solid seagreen; */
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+    height: 5rem;
 }

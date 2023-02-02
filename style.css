@@ -122,8 +122,9 @@ section {
     display: block;
     background-color: rgb(188, 108, 37, 0.6);
     text-align: center;
-    font-family: "Playfair Display";
+    font-family: "IBM Plex Mono";
     margin-bottom: 30%;
+    text-transform: lowercase;
 }
 
 .contactForm {
@@ -140,7 +141,7 @@ input {
 }
 
 .formtext {
-    font-family: roboto;
+    font-family: 'Playfair Display';
     letter-spacing: 1px;
 }
 

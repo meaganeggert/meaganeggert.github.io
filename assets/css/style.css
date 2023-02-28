@@ -1751,4 +1751,8 @@ section {
   color: #fff;
 }
 
-/* CALENDAR SCSS */
+/* FAMILY PAGES */
+
+.familycover {
+  width: 50%;
+}

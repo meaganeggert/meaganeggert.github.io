@@ -742,6 +742,26 @@ section {
   }
 }
 
+/* InnerPage Nav */
+
+.newnav {
+  padding-top: .3em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.newnav ul li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #37332a;
+  content: "||";
+}
+
+.active-bread {
+  color: white;
+}
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/

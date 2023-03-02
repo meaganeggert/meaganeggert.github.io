@@ -1756,3 +1756,12 @@ section {
 .familycover {
   width: 50%;
 }
+
+.favorite-header {
+  box-shadow: rgba(205, 164, 94, .5) 0px 1px, rgba(205, 164, 94, .3) 0px 2px, rgba(205, 164, 94, .2) 0px 3px, rgba(205, 164, 94, .1) 0px 4px;
+}
+
+.favorites {
+  color: rgb(205, 164, 94);
+  font-style: italic;
+}

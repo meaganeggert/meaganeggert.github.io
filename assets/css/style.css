@@ -1765,3 +1765,11 @@ section {
   color: rgb(205, 164, 94);
   font-style: italic;
 }
+
+.gallery-title {
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(205, 164, 94);
+}

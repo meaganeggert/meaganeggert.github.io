@@ -1773,3 +1773,39 @@ section {
   font-style: italic;
   color: rgb(205, 164, 94);
 }
+
+.calendar-sect h3 {
+  font-family: 'Poppins';
+  background-color: rgba(205, 164, 94, 0.7);
+  color: black;
+
+}
+
+.calendar-sect h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background-color: black;
+  /* background: rgba(255, 255, 255, 0.2); */
+  margin: 4px 10px;
+}
+
+.event-content {
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.event-list {
+  background: none;
+  box-shadow:1px 1px 3px rgba(205, 164, 94, 0.7);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.event-number {
+  color:rgba(205, 164, 94, 0.7);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2) ;
+}

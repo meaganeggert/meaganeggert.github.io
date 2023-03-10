@@ -507,6 +507,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   text-shadow: 1px 1px 3px rgb(35, 32, 32);
   border: 2px solid #cda45e;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
@@ -516,6 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-book {
   margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #hero .play-btn {
